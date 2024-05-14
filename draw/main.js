@@ -98,3 +98,10 @@ function setThickness(e){
 
 const saveLink = document.querySelector('#downloadLink')
 saveLink.download = "image.png"
+
+//erase
+const eraseButton = document.querySelector("#eraseButton")
+eraseButton.addEventListener("click", (e)=>{
+    e.preventDefault()
+    context.clearRect(0,0,canvas.width,canvas.height)
+})
