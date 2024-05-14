@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+canvas{
+    border: solid 1px red;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+#color-picker{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.color-button{
+    color:white;
+    padding:  .2rem .5rem;
+    border-radius: 25px;
+    border: none;
+}
